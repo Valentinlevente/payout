@@ -1,0 +1,15 @@
+main, .wow{
+    width: 100%;
+}
+.center{
+    margin: 0 auto;
+    display: block;
+    width: auto;
+}
+.lathatatlan{
+    display: none;
+}
+p{
+    color: red;
+    padding-top: 5px;
+}

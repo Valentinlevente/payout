@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check out</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    
+      <!--Main layout-->
+      <main class="mt-5 pt-4 ">
+        <div class="container wow fadeIn">
+    
+          <!-- Heading -->
+          <h2 class="my-5 h2 text-center">Checkout form</h2>
+    
+          <!--Grid row-->
+          <div class="row">
+    
+            <!--Grid column-->
+            <div class="col-md-8 mb-4 center">
+    
+              <!--Card-->
+              <div class="card ">
+    
+                <!--Card content-->
+                <div class="card-body">
+    
+                  <!--Grid row-->
+                  <div class="row">
+    
+                    
+    
+                <!--Név-->
+                <div class="md-form ">
+                    <div class="md-form mb-3">
+                    <input type="text" id="name" class="form-control" placeholder="Jóska Pista">
+                    <label for="email" class="">Teljes név</label>
+                    <div id="nameDiv" class="lathatatlan">
+                      <p>Hibás névmező</p>
+                    </div>
+                </div>
+    
+                    
+    
+                  </div>
+                  <!--Grid row-->
+    
+    
+                  <!--Ország-->
+                  <div class="md-form mb-3">
+                    <input type="text" id="country" class="form-control" placeholder="Magyarország">
+                    <label for="address" class="">Ország</label>
+                    <div id="countryDiv" class="lathatatlan">
+                      <p>Hibás országmező</p>
+                    </div>
+                  </div>
+    
+                  <!--Város-->
+                  <div class="md-form mb-3">
+                    <input type="text" id="city" class="form-control" placeholder="Budapest">
+                    <label for="address-2" class="">Város</label>
+                    <div id="cityDiv" class="lathatatlan">
+                      <p>Hibás városmező</p>
+                    </div>
+                  </div>
+                  <!--Utca, házszám-->
+                  <div class="md-form mb-3">
+                    <input type="text" id="street" class="form-control" placeholder="Példa utca 12">
+                    <label for="address-2" class="">Utca, házszám</label>
+                    <div id="streetDiv" class="lathatatlan">
+                      <p>Hibás utcamező</p>
+                    </div>
+                  </div>
+                  <!--Irányítószám-->
+                  <div class="md-form mb-3">
+                    <input type="text" id="zipcode" class="form-control" placeholder="0000">
+                    <label for="address-2" class="">Irányítószám</label>
+                    <div id="zipcodeDiv" class="lathatatlan">
+                      <p>Hibás irányítószámmező</p>
+                    </div>
+                  </div>
+                  <!--Bankkártya-->
+                  <div class="md-form mb-3">
+                    <input type="text" id="cardNumbers" class="form-control" placeholder="0000-0000-0000-0000">
+                    <label for="address-2" class="">Bankkártyaszám</label>
+                    <div id="cardNumbersDiv" class="lathatatlan">
+                      <p>Hibás bankkártyaszámmező</p>
+                    </div>
+                  </div>
+                  <!--Ellenörző kód-->
+                  <div class="md-form mb-3">
+                    <input type="text" id="verificationCode" class="form-control" placeholder="000">
+                    <label for="address-2" class="">Ellenőrző kód</label>
+                    <div id="verificationCodeDiv" class="lathatatlan">
+                      <p>Hibás ellenőrzőkódmező</p>
+                    </div>
+                  </div>
+                  <!--Név a bankkártyán-->
+                  <div class="md-form mb-3">
+                    <input type="text" id="nameOnCard" class="form-control" placeholder="Jóska Pista">
+                    <label for="address-2" class="">Név a bankkártyán</label>
+                    <div id="nameOnCardDiv" class="lathatatlan">
+                      <p>Hibás bankkáryta név mező</p>
+                    </div>
+                  </div>
+    
+                  <!--Grid row-->
+                  
+                  <button class="btn btn-primary btn-lg btn-block" id="payButton">Fizetés</button>
+    
+                </div>
+    
+              </div>
+              <!--/.Card-->
+    
+            </div>
+            <!--Grid column-->
+    
+            <!--Grid column-->
+            
+    
+          </div>
+          <!--Grid row-->
+    
+        </div>
+      </main>
+      <!--Main layout-->
+      
+      <script src="dist/main.js"></script>
+    
+      
+</body>
+</html>
